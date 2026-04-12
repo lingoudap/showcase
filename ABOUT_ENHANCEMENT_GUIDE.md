@@ -13,7 +13,7 @@ Your About section has been completely transformed into a premium, visually enga
    - Enhanced storytelling about your expertise
    - Quick stats row (Years, Projects, Dedication)
    - Prominent border with hover effects
-   - Engaging, client-focused wording
+   - Engaging, client-focused wordingam
 
 2. **AboutHighlights.jsx** - Quick statistics cards
    - 4 colorful stat cards with gradients

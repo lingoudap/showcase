@@ -180,6 +180,35 @@ const services = [
       "Monitoring setup",
       "Scaling recommendations"
     ]
+  },
+  {
+    id: 8,
+    title: "Portfolio Website Development",
+    subtitle: "Modern Developer & Business Portfolios",
+    description: "Build a stunning, high-performance portfolio website showcasing your projects and expertise. Using React, Tailwind CSS, and Vite, I create modern, responsive portfolios optimized for speed, SEO, and conversions. Perfect for developers, freelancers, and professionals looking to make a strong online presence.",
+    icon: "🎨",
+    category: "Web Development",
+    featured: true,
+    technologies: ["React", "Tailwind CSS", "Vite", "JavaScript", "Vercel", "Netlify"],
+    features: [
+      "Modern, Responsive Design",
+      "Project Showcase & Filtering",
+      "Contact Forms & Lead Capture",
+      "Smooth Animations & Transitions",
+      "SEO Optimization",
+      "Fast Performance & Loading",
+      "Easy Customization",
+      "One-Click Deployment"
+    ],
+    idealFor: "Developers, freelancers, job seekers, small businesses, startups, creative professionals",
+    deliverables: [
+      "Live deployed website",
+      "Full source code repository",
+      "Custom domain setup",
+      "Content optimization",
+      "Performance tuning",
+      "3-month free maintenance"
+    ]
   }
 ];
 

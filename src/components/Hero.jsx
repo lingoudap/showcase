@@ -9,7 +9,7 @@ function Hero() {
 
       <div data-aos="fade-up" data-aos-delay="100">
         <p className="text-lg md:text-2xl text-gray-300 mb-3 font-semibold">
-          Technical Support Engineer | Full Stack Developer | ERP Implementation
+          Technical Support Engineer - ERP| Full Stack Developer 
         </p>
       </div>
 
