@@ -3,6 +3,14 @@ import { useState } from 'react';
 function AboutExperience() {
   const [expandedIndex, setExpandedIndex] = useState(0);
 
+  // Handle smooth navigation to sections
+  const handleNavigate = (sectionId) => {
+    const target = document.querySelector(sectionId);
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const experience = [
     {
       role: "Technical Support & Implementation Engineer",
@@ -264,10 +272,16 @@ function AboutExperience() {
               I'm always open to discussing new projects, innovative ideas, and opportunities to contribute technical expertise.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-bold rounded-xl hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 transform hover:scale-105">
+              <button 
+                onClick={() => handleNavigate('#contact')}
+                className="px-8 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-bold rounded-xl hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 transform hover:scale-105"
+              >
                 Start a Project
               </button>
-              <button className="px-8 py-3 bg-transparent border-2 border-blue-400 text-blue-300 font-bold rounded-xl hover:bg-blue-500/10 transition-all duration-300">
+              <button 
+                onClick={() => handleNavigate('#projects')}
+                className="px-8 py-3 bg-transparent border-2 border-blue-400 text-blue-300 font-bold rounded-xl hover:bg-blue-500/10 transition-all duration-300"
+              >
                 View My Work
               </button>
             </div>

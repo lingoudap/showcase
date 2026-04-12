@@ -249,6 +249,22 @@ function Navbar() {
               </span>
             </button>
 
+            {/* View My Work Button */}
+            <a
+              href="#projects"
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavClick('#projects');
+              }}
+              className="group relative px-6 py-2 text-sm font-medium text-blue-300 rounded-xl transition-all duration-300 overflow-hidden border-2 border-blue-400 hover:bg-blue-500/10"
+              aria-label="View projects"
+            >
+              {/* Content */}
+              <span className="relative group-hover:scale-105 transition-transform duration-300">
+                View My Work
+              </span>
+            </a>
+
             {/* Premium Contact Button */}
             <a
               href="#contact"
@@ -367,6 +383,16 @@ function Navbar() {
                 >
                   📄 Download Resume
                 </button>
+                <a
+                  href="#projects"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleNavClick('#projects');
+                  }}
+                  className="w-full py-3 text-sm font-medium text-blue-300 bg-transparent border-2 border-blue-400 hover:bg-blue-500/10 rounded-xl transition-all duration-300 text-center"
+                >
+                  View My Work
+                </a>
                 <a
                   href="#contact"
                   onClick={(e) => {
