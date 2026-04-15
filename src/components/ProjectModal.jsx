@@ -68,6 +68,11 @@ function ProjectModal({ project, isOpen, onClose }) {
                 ⭐ Featured
               </span>
             )}
+            {project.portfolioLevels && (
+              <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                🎨 Portfolio System
+              </span>
+            )}
             <span className="bg-blue-900 text-blue-200 text-xs font-semibold px-3 py-1 rounded-full">
               {project.status}
             </span>
@@ -136,6 +141,41 @@ function ProjectModal({ project, isOpen, onClose }) {
               ))}
             </ul>
           </div>
+
+          {/* Portfolio Variants Section (if exists) */}
+          {project.portfolioLevels && (
+            <div className="mb-8">
+              <h3 className="text-xl font-bold text-purple-300 mb-4">🎨 Portfolio Variants</h3>
+              <div className="grid md:grid-cols-3 gap-4">
+                {project.portfolioLevels.map((variant, index) => (
+                  <div
+                    key={index}
+                    className="group p-4 bg-gradient-to-br from-purple-900/20 to-pink-900/20 rounded-xl border border-purple-700/30 hover:border-purple-500/60 transition-all duration-300 transform hover:scale-105"
+                  >
+                    <div className="mb-3">
+                      <h4 className="text-lg font-bold text-white mb-2 flex items-center gap-2">
+                        {index === 0 && "🎯"}
+                        {index === 1 && "⚡"}
+                        {index === 2 && "👑"}
+                        {variant.level}
+                      </h4>
+                      <p className="text-sm text-gray-300 leading-relaxed">
+                        {variant.description}
+                      </p>
+                    </div>
+                    <a
+                      href={variant.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block mt-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/50"
+                    >
+                      View Live →
+                    </a>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Contribution */}
           <div className="mb-8">

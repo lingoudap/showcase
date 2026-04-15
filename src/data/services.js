@@ -189,7 +189,7 @@ const services = [
     icon: "🎨",
     category: "Web Development",
     featured: true,
-    technologies: ["React", "Tailwind CSS", "Vite", "JavaScript", "Vercel", "Netlify"],
+    technologies: ["React", "Tailwind CSS", "Vite", "JavaScript", "Vercel", "Netlify","Render"],
     features: [
       "Modern, Responsive Design",
       "Project Showcase & Filtering",

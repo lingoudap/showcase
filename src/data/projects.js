@@ -114,6 +114,48 @@ const projects = [
     contribution: "Designed complete system architecture, implemented secure APIs, built React frontend, and handled database optimization.",
     live: "https://example.com/payroll-demo",
     github: "https://github.com/yourusername/payroll-system"
+  },
+  {
+    id: 6,
+    title: "Portfolio Website Collection",
+    subtitle: "Multi-level portfolio systems with deployment",
+    description: "Designed and developed multiple portfolio websites with different complexity levels, ranging from basic static portfolios to advanced full-featured portfolio systems with animations, filtering, and dynamic components. Each portfolio is fully responsive and deployed using modern hosting platforms. This collection showcases my ability to build scalable, reusable component structures and implement progressive UI/UX enhancements.",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop",
+    tech: ["React.js", "Tailwind CSS", "Vite", "JavaScript", "Vercel", "Netlify"],
+    category: "Web App",
+    featured: true,
+    status: "Completed",
+    duration: "Ongoing",
+    role: "Frontend Developer",
+    features: [
+      "Multiple portfolio variants (Basic, Medium, Advanced)",
+      "Modern UI with Tailwind CSS & Animations",
+      "Responsive design across all devices",
+      "Project showcase and filtering system",
+      "Deployment on Vercel/Netlify",
+      "Reusable and scalable component structure",
+      "Case-sensitive import handling for multi-platform deployment"
+    ],
+    contribution: "Designed and built multiple portfolio systems from scratch using React and Tailwind CSS, implemented modern UI/UX patterns, optimized performance, and deployed all versions for live access. Ensured cross-platform compatibility with case-sensitive file handling for Linux/Render deployments.",
+    portfolioLevels: [
+      {
+        level: "Basic Portfolio",
+        description: "Simple and clean portfolio with essential sections: About, Projects, and Contact. Perfect for showcasing fundamental skills and project overview.",
+        link: "https://lingoudap.netlify.app/"
+      },
+      {
+        level: "Medium Portfolio",
+        description: "Enhanced portfolio with smooth animations, improved UI components, structured navigation, and organized project display. Includes project categories and filtering.",
+        link: "https://lingouda-portfolio.onrender.com/"
+      },
+      {
+        level: "Advanced Portfolio",
+        description: "Full-featured premium portfolio with dynamic filtering, interactive modals, smooth animations, AOS scroll effects, real-time search, and professional UI. Production-ready with optimized performance.",
+        link: "https://lingouda.onrender.com/"
+      }
+    ],
+    live: "https://lingouda.onrender.com/",
+    github: "https://github.com/lingoudappatil/portfolio-collection"
   }
 ];
 
