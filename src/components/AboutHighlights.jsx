@@ -1,7 +1,7 @@
 function AboutHighlights() {
   const highlights = [
     {
-      number: "1+",
+      number: "1.9+",
       label: "Years Experience",
       icon: "📅",
       color: "from-blue-500 to-blue-600"

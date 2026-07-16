@@ -53,7 +53,7 @@ function Services() {
 
   return (
     <>
-      <section id="services" className="py-20 px-6 md:px-20 bg-gray-950">
+      <section id="services" className="scroll-mt-24 py-20 px-6 md:px-20 bg-gray-950">
         <SectionHeader title="Services Offered" subtitle="What I Provide" />
 
         {/* Filter Section */}

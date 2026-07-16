@@ -9,7 +9,7 @@ import AboutCTA from "./AboutCTA";
 function About() {
   return (
     <>
-      <section id="about" className="py-20 px-6 md:px-20 bg-gray-950">
+      <section id="about" className="scroll-mt-24 py-20 px-6 md:px-20 bg-gray-950">
         <SectionHeader title="About Me" subtitle="My Professional Journey" />
 
         {/* Introduction Section */}

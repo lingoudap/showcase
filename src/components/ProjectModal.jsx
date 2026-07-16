@@ -68,11 +68,6 @@ function ProjectModal({ project, isOpen, onClose }) {
                 ⭐ Featured
               </span>
             )}
-            {project.portfolioLevels && (
-              <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs font-bold px-3 py-1 rounded-full">
-                🎨 Portfolio System
-              </span>
-            )}
             <span className="bg-blue-900 text-blue-200 text-xs font-semibold px-3 py-1 rounded-full">
               {project.status}
             </span>
@@ -81,6 +76,7 @@ function ProjectModal({ project, isOpen, onClose }) {
             </span>
           </div>
         </div>
+        
 
         {/* Content */}
         <div className="p-6 md:p-8">
@@ -141,11 +137,9 @@ function ProjectModal({ project, isOpen, onClose }) {
               ))}
             </ul>
           </div>
-
-          {/* Portfolio Variants Section (if exists) */}
           {project.portfolioLevels && (
             <div className="mb-8">
-              <h3 className="text-xl font-bold text-purple-300 mb-4">🎨 Portfolio Variants</h3>
+              <h3 className="text-xl font-bold text-purple-300 mb-4">🎨 View Live </h3>
               <div className="grid md:grid-cols-3 gap-4">
                 {project.portfolioLevels.map((variant, index) => (
                   <div

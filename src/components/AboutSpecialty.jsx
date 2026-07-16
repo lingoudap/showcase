@@ -7,9 +7,9 @@ function AboutSpecialty() {
       color: "emerald"
     },
     {
-      title: "CRM Development",
-      description: "Custom CRM systems, lead management, and sales pipeline tracking",
-      icon: "👥",
+      title: "Business Process Mapping",
+      description: "Requirements gathering, process design, gap analysis, and UAT leadership",
+      icon: "🗺️",
       color: "blue"
     },
     {
@@ -25,15 +25,15 @@ function AboutSpecialty() {
       color: "purple"
     },
     {
-      title: "Technical Support",
-      description: "Expert troubleshooting, client onboarding, and system optimization",
-      icon: "🛠️",
+      title: "SQL Reporting & Analytics",
+      description: "Data migration, custom reporting, dashboards, and data validation",
+      icon: "📈",
       color: "orange"
     },
     {
-      title: "Data Migration",
-      description: "Complex data migration processes, database optimization, and cleanup",
-      icon: "🗄️",
+      title: "Go-Live & Hypercare",
+      description: "Implementation launch, cutover management, and post-launch support",
+      icon: "🚀",
       color: "pink"
     }
   ];

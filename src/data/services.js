@@ -1,28 +1,28 @@
 const services = [
   {
     id: 1,
-    title: "ERP Implementation & Support",
-    subtitle: "Enterprise Resource Planning Solutions",
-    description: "Complete ERP implementation with system configuration, data migration, and ongoing support. I help businesses streamline operations, improve efficiency, and integrate all core processes into a unified system.",
+    title: "ERP Implementation & Consulting",
+    subtitle: "End-to-End Enterprise Resource Planning Solutions",
+    description: "Lead complete ERP implementations from requirements analysis through go-live. I guide businesses through system configuration, business process mapping, data migration, and stakeholder enablement to drive digital transformation and operational efficiency.",
     icon: "📊",
     category: "Business Solutions",
     featured: true,
     technologies: ["SAP", "Oracle", "Odoo", "Microsoft Dynamics", "Zoho"],
     features: [
-      "System Requirements Analysis",
-      "Custom Configuration",
-      "Data Migration & Cleanup",
-      "User Training & Documentation",
-      "Post-Implementation Support",
-      "Performance Optimization"
+      "Requirements Analysis & BRD",
+      "Business Process Mapping",
+      "System Configuration & Customization",
+      "Data Migration & Validation",
+      "UAT Leadership & Testing",
+      "Go-Live Execution & Hypercare"
     ],
     idealFor: "Mid to large enterprises, manufacturing companies, wholesale distributors",
     deliverables: [
-      "Customized ERP system",
-      "Data migration plan",
-      "User training materials",
-      "Implementation timeline",
-      "6-month support period"
+      "Configured ERP system",
+      "Process documentation",
+      "User training program",
+      "Implementation roadmap",
+      "Post-launch support"
     ]
   },
   {
@@ -131,28 +131,28 @@ const services = [
   },
   {
     id: 6,
-    title: "Technical Support & Troubleshooting",
-    subtitle: "Expert Technical Assistance & Bug Fixes",
-    description: "Get expert technical support for your existing applications. I diagnose issues, fix bugs, optimize performance, and provide guidance on best practices and improvements.",
-    icon: "🛠️",
-    category: "Support",
+    title: "API Integration & System Connectivity",
+    subtitle: "Seamless Third-Party Integration Solutions",
+    description: "Design and implement integrations between ERP systems and third-party applications. I architect solutions for WhatsApp APIs, biometric systems, payment gateways, and custom connectors—ensuring data consistency and operational continuity.",
+    icon: "🔗",
+    category: "Integrations",
     featured: false,
-    technologies: ["React", "Node.js", "PHP", "MySQL", "Debugging Tools", "Performance Profiling"],
+    technologies: ["REST APIs", "Webhooks", "Postman", "WhatsApp Business API", "ESSL Biometric", "AWS", "Custom Connectors"],
     features: [
-      "Bug Identification & Fixing",
-      "Performance Debugging",
-      "Code Review & Optimization",
-      "Architecture Assessment",
-      "Documentation & Training",
-      "Extended Support Plans"
+      "Integration Architecture Design",
+      "API Documentation & Implementation",
+      "Error Handling & Retry Logic",
+      "Data Synchronization",
+      "Security & Authentication",
+      "Testing & Validation"
     ],
-    idealFor: "Development teams, growing startups, established businesses",
+    idealFor: "Enterprises with existing systems, e-commerce platforms, multi-system environments",
     deliverables: [
-      "Fixed codebase",
-      "Optimization report",
-      "Code documentation",
-      "Best practices guide",
-      "Support plan options"
+      "Integrated architecture",
+      "API specifications",
+      "Test cases & validation",
+      "Deployment guide",
+      "Integration documentation"
     ]
   },
   {
@@ -183,7 +183,7 @@ const services = [
   },
   {
     id: 8,
-    title: "Portfolio Website Development",
+    title: "Portfolio Website Development with Deployment",
     subtitle: "Modern Developer & Business Portfolios",
     description: "Build a stunning, high-performance portfolio website showcasing your projects and expertise. Using React, Tailwind CSS, and Vite, I create modern, responsive portfolios optimized for speed, SEO, and conversions. Perfect for developers, freelancers, and professionals looking to make a strong online presence.",
     icon: "🎨",

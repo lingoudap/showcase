@@ -3,7 +3,7 @@ const skills = {
   backend: ["Node.js", "Express.js", "PHP", "Socket.io", "REST API", "JWT"],
   database: ["MongoDB", "MySQL", "Firebase"],
   tools: ["Git", "GitHub", "Postman", "VS Code", "MySQLWorkbench", "Postman"],
-  erp: ["ERP Deployment", "SixOrbit ERP", "API Integrations", "Client Support", "Data Migration"],
+  erp: ["ERP Implementation", "SixOrbit ERP", "API Integrations", "UAT Leadership", "Data Migration"],
   integrations: ["WhatsApp APIs", "Biometric Systems", "ESSL Integration", "Third-party Connectivity"]
 };
 

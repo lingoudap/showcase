@@ -11,26 +11,26 @@ function AboutIntro() {
 
         <div className="space-y-5 text-gray-300 leading-8">
           <p>
-            I am a <span className="text-blue-400 font-semibold">Technical Support and Implementation Engineer</span> with 1+ years of hands-on experience in <span className="text-emerald-400 font-semibold">ERP deployment, API integrations, and technical problem-solving</span>. My career is built on delivering reliable technical solutions that drive business success.
+            I'm an <span className="text-blue-400 font-semibold">ERP Technical-Functional Consultant</span> with 1.9+ years of hands-on experience turning business requirements into configured, integrated ERP solutions that improve how organizations actually operate. My work sits where functional process design meets technical delivery — I gather requirements, map processes, configure systems, and own the build through to go-live.
           </p>
 
           <p>
-            Currently at <span className="text-cyan-400 font-semibold">Accrete Globus Technology Pvt. Ltd</span>, I provide comprehensive technical support for SixOrbit ERP systems, managing everything from module deployments and client onboarding to complex data migrations. I've successfully integrated third-party systems including WhatsApp APIs, ESSL biometric devices, and custom connectivity solutions—all while ensuring seamless operations and client satisfaction.
+            At <span className="text-cyan-400 font-semibold">Accrete Globus Technology Pvt. Ltd</span> (Customer Success Consultant – ERP), I lead functional consulting for <span className="text-emerald-400 font-semibold">SixOrbit ERP</span> implementations across CRM, Sales, and Payroll — from requirement-gathering workshops and process mapping through configuration, data migration, UAT, and go-live support. I've designed and delivered integrations including the <span className="text-blue-400 font-semibold">WhatsApp Business API</span>, <span className="text-emerald-400 font-semibold">ESSL biometric</span> attendance, and <span className="text-blue-400 font-semibold">custom connectors</span>, owning the full path from functional requirements to a stable, deployed solution.
           </p>
 
           <p>
-            Beyond ERP systems, I'm a passionate <span className="text-purple-400 font-semibold">Full Stack Developer</span> specializing in MERN stack technologies. I've built CRM systems, task management applications, real-time chat solutions, and admin dashboards that combine functionality with excellent user experience. During my internship at <span className="text-cyan-400 font-semibold">Rachana Infotech Software Company</span>, I developed a Sales Management Admin Panel with dynamic visualization and optimized database architecture.
+            What sets my profile apart is that the systems I consult on, I also build. Outside of client work I develop full-stack applications on the <span className="text-blue-400 font-semibold">MERN stack</span> (JavaScript, React, Node, MongoDB) and <span className="text-blue-400 font-semibold">MySQL</span> — including my own <span className="text-emerald-400 font-semibold">CRM</span> and <span className="text-emerald-400 font-semibold">Payroll</span> applications, reporting dashboards, and deployed portfolio projects. During my internship at <span className="text-cyan-400 font-semibold">Rachana Infotech</span>, I built a <span className="text-blue-400 font-semibold">Sales Management Admin Panel</span> pairing data architecture with business-focused visualization. So I understand CRM and Payroll not just as a consultant configuring them, but as a developer who has written them from the ground up.
           </p>
 
           <p>
-            My approach combines deep technical expertise with a strong customer focus. I'm a problem-solver who thrives on understanding complex business requirements and translating them into efficient technical solutions. Whether you need ERP support, custom development, or technical freelancing services, I bring professionalism, reliability, and a commitment to excellence.
+            I bring strategic thinking, technical rigor, and a commitment to successful go-lives — whether I'm architecting an ERP implementation, mapping a business process, or shipping a custom integration. I'm equally at home in a requirements workshop and in the code.
           </p>
         </div>
 
         {/* Quick Stats Row */}
         <div className="grid grid-cols-3 gap-4 mt-8 pt-8 border-t border-gray-700">
           <div className="text-center">
-            <div className="text-3xl font-bold text-blue-400">1+</div>
+            <div className="text-3xl font-bold text-blue-400">1.9+</div>
             <p className="text-sm text-gray-400 mt-1">Years in Industry</p>
           </div>
           <div className="text-center">

@@ -50,7 +50,7 @@ function Projects() {
   };
 
   return (
-    <section id="projects" className="py-20 px-6 md:px-20 bg-gray-950">
+    <section id="projects" className="scroll-mt-24 py-20 px-6 md:px-20 bg-gray-950">
       <SectionHeader title="Featured Projects" subtitle="Portfolio Highlights" />
 
       {/* Filter Section */}

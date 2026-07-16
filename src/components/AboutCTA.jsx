@@ -9,7 +9,7 @@ function AboutCTA() {
 
         {/* Subheading */}
         <p className="text-lg text-gray-200 mb-8 leading-relaxed">
-          Whether you need ERP implementation, custom development, technical support, or want to discuss a project opportunity, I'm ready to help you achieve your goals with expertise and professionalism.
+          Whether you need ERP implementation consulting, business process design, system configuration, data migration, or API integration solutions, I'm ready to deliver strategic and technical excellence to transform your operations.
         </p>
 
         {/* CTA Buttons */}

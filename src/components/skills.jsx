@@ -6,7 +6,7 @@ const skillIcons = {
   backend: "⚙️",
   database: "🗄️",
   tools: "�",
-  erp: "📊",
+  ERP: "📊",
   integrations: "🔗",
 };
 

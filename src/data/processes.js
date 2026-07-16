@@ -1,0 +1,48 @@
+export const processes = [
+  {
+    code: 'O2C',
+    title: 'Order-to-Cash',
+    role: 'flow design, configuration, UAT',
+    accent: 'emerald',
+    steps: [
+      { name: 'Order Management', sub: 'Capture' },
+      { name: 'Credit Management', sub: 'Approve' },
+      { name: 'Fulfillment & Shipping', sub: 'Dispatch' },
+      { name: 'Invoicing', sub: 'Bill' },
+      { name: 'Accounts Receivable', sub: 'Track' },
+      { name: 'Payment Collection', sub: 'Collect' },
+      { name: 'Cash Application', sub: 'Reconcile' },
+      { name: 'Reporting', sub: 'Analyze' },
+    ],
+  },
+  {
+    code: 'P2P',
+    title: 'Procure-to-Pay',
+    role: 'process mapping, configuration',
+    accent: 'blue',
+    steps: [
+      { name: 'Need Identification', sub: 'Plan' },
+      { name: 'Purchase Requisition', sub: 'Request' },
+      { name: 'Purchase Order', sub: 'Authorize' },
+      { name: 'Goods Receipt', sub: 'Receive' },
+      { name: 'Invoice Receipt', sub: 'Register' },
+      { name: '3-Way Match', sub: 'Validate' },
+      { name: 'Payment (AP)', sub: 'Pay' },
+    ],
+  },
+  {
+    code: 'H2R',
+    title: 'Hire-to-Retire',
+    role: 'configuration + biometric→payroll integration',
+    accent: 'cyan',
+    steps: [
+      { name: 'Workforce Planning & Recruitment', sub: 'Hire' },
+      { name: 'Onboarding', sub: 'Induct' },
+      { name: 'Employee Records', sub: 'Maintain' },
+      { name: 'Time & Attendance', sub: 'Track' },
+      { name: 'Payroll & Benefits', sub: 'Process' },
+      { name: 'Performance & Development', sub: 'Develop' },
+      { name: 'Offboarding/Retirement', sub: 'Exit' },
+    ],
+  },
+];
